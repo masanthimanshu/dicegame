@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Dicee Game</title>
+
+  <!-- Internal CSS -->
+
+  <link rel="stylesheet" href="Resources/master.css">
+
+  <!-- Scrollbar   -->
+
+  <link rel="stylesheet" href="Resources/scrollbar.css">
+
+  <!-- Site Icon -->
+
+  <link rel="icon" href="Resources/dice_icon.svg">
+
+  <!-- Google Fonts -->
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lobster">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Indie+Flower">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amatic+SC">
+
+</head>
+
+<body>
+  <h1>Refresh Me</h1>
+
+  <h2 id="winner"> </h2>
+
+  <div class="container">
+
+    <div class="player">
+      <p>Player 1</p>
+      <img id="pict1" src="Resources/dice1.png" alt="Dice">
+    </div>
+
+    <div class="empty">
+      <button onclick="location.reload();"> Click Here </button>
+    </div>
+
+    <div class="player">
+      <p>Player 2</p>
+      <img id="pict2" src="Resources/dice6.png" alt="Dice">
+    </div>
+
+  </div>
+
+  <br><br><br>
+
+  <script src="Resources/index.js" charset="utf-8"></script>
+</body>
+
+</html>

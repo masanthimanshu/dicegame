@@ -1,0 +1,58 @@
+/******************* Tag Selectors ************************/
+body {
+  background-color: #393E46;
+  text-align: center;
+  color: #4ECCA3;
+  margin: 0;
+}
+
+h1 {
+  margin: 10px;
+  font-family: Lobster;
+  font-size: 8rem;
+  text-shadow: 5px 0 #232931;
+  font-weight: bold;
+}
+
+h2{
+  font-family: Amatic SC;
+  font-size: 3rem;
+}
+
+p {
+  font-family: Indie Flower;
+  font-size: 2rem;
+}
+
+button{
+  background-color: #4ECCA3;
+  color: #393E46;
+  padding: 10px 50px;
+  font-weight: bold;
+  font-size: 1rem;
+  border: 0;
+  font-family: Lobster;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  bottom: 125px;
+}
+
+button:hover{
+  background-color: #40a886;
+}
+
+/******************* Class Selectors ************************/
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.player {
+  display: inline-block;
+}
+
+.empty{
+  display: inline-block;
+  width: 25%;
+}
